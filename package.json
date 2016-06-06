@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "cheerio": "latest",
+    "q": "latest",
+    "request": "latest",
+    "yargs": "latest"
+  },
+  "name": "broken-link-checker",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node broken_link.js -l/-link domain name" //node broken_link.js -l http://baxi.taxi
+  },
+  "description": "",
+  "main": "broken_link.js",
+  "engines": {
+    "node": "6.0.x"
+  }
+}
